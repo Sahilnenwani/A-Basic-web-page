@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-bg-color:#2874f0;
+  }
+header{
+    
+    background: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+ height: 58px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height:27px ;
+    width: 30vw;
+    margin:0 16px 0 56px;
+    border-radius:4px;
+    padding-left: 12px;
+}
+.search btn{
+    font-family: 'Lato', sans-serif;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin:12px auto;
+    overflow: hidden;
+}
+.card{
+    width: 91vw;
+    margin: 12px auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #f1f3f6;
+    padding: 10px;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Rubik', sans-serif;
+}
+
+.Container{
+    min-height: Calc(100vh - 58px - 12vh);
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 18PX;
+}
+.cards{
+    display: flex;
+   
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
